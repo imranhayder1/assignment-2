@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-    /* Start Body Section  */
+    /* Start Common Section  */
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -42,6 +42,9 @@ h3{
     font-weight: 500;
     font-size: 24px;
 }
+
+    /* Start banner Section  */
+
 .navigation{
     height: 80px;
     align-items: center;
@@ -143,6 +146,9 @@ nav{
 .fa-star, .fa-star-half-alt{
     color: #FB8200;
 }
+
+    /* See More Section  */
+
 .next-step{
     max-width: 1200px;
     margin: 20px 0;
@@ -157,6 +163,30 @@ nav{
     position: absolute;
     left: 1095px;
 }
+
+    /* Start Shopping Section  */
+
+.shopping-section h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.shopping{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    grid-column-gap: 15px;
+}
+.shopping p{
+    align-items: center;
+}
+.sign-up{
+    text-align: center;
+    margin-top: 30px;
+}
+
+    /* Start Footer Section  */
+
 .bottom{
     background-color: #aaaaaa9d;
     margin: 0;
