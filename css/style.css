@@ -367,6 +367,9 @@ nav{
     height: 110px;
     align-items: center;
 }
+.footer-section h2, h4{
+    color: #fff;
+}
 .footer-icon .fab{
     padding: 10px 10px;
     font-size: 25px;
