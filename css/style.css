@@ -46,10 +46,7 @@ h3{
     height: 80px;
     align-items: center;
 }
-.header-title{
-    /* margin: 20px; */
-    /* padding: 20px; */
-}
+
 .header-title a{
     text-decoration: none;
     font-size: 24px;
@@ -62,7 +59,6 @@ nav{
 }
 .menu-list ul{
     display: flex;
-    /* margin: 20px; */
 }
 .menu-list ul li{
     list-style: none;
@@ -82,13 +78,11 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    /* margin: 20px; */
 }
 .banner-left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: 20px; */
     
 }
 .banner-left p{
@@ -117,7 +111,6 @@ nav{
 .logo{
     display: flex;
     justify-content: space-between;
-    /* margin: 40px; */
 }
 
     /* Start Product Section  */
@@ -139,7 +132,6 @@ nav{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.062);
     box-shadow: 0,0,35;
-    /* margin: 40px; */
 }
 .product-1 img{
     width: 100%;
@@ -152,15 +144,41 @@ nav{
     color: #FB8200;
 }
 .next-step{
-    
-    font-weight: 700;
+    max-width: 1200px;
     margin: 20px 0;
     position: relative;
-    right: -1095px;
-    bottom: 5px;
+    
 }
 .next-step a{
     text-decoration: none;
     color: #E02C6D;
     font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 1095px;
+}
+.bottom{
+    background-color: #AAAAAA;
+    margin: 0;
+    width: 100%;
+}
+.footer-section{
+    text-align: center;
+    /* padding: 20px 0; */
+}
+.footer-icon .fab{
+    padding: 15px 10px;
+    font-size: 30px;
+}
+.fa-facebook{
+    color: #1877f2;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.fa-instagram{
+    color: #c32aa3;
+}
+.fa-youtube{
+    color: #ff0000;
 }
