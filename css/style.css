@@ -472,10 +472,10 @@ nav{
     grid-template-columns: repeat(1, 1fr);
    }
    .next-step{
-    max-width: 1024px;
-    min-width: 801px;
+    max-width: 800px;
+    min-width: 480px;
     position: absolute;
-    left: -1090px;
+    left: -720px;
     white-space: nowrap;
    }
    .shopping-section h1{
@@ -573,7 +573,7 @@ nav{
     max-width: 1024px;
     min-width: 801px;
     position: absolute;
-    left: -1090px;
+    left: -320px;
     white-space: nowrap;
    }
    .shopping-section h1{
