@@ -482,6 +482,7 @@ nav{
     max-width: 800px;
     min-width: 480px;
     font-size: 18px;
+    margin-top: 50px;
    }
    .shopping{
        display: grid;
@@ -546,7 +547,7 @@ nav{
    .photo img{
     max-width: 1024px;
     min-width: 801px;
-       object-fit: cover;
+    object-fit: cover;
    }
    .logos{
     max-width: 1024px;
