@@ -86,8 +86,177 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.banner-title{
+    font-size: 23px;
+    position: relative;
+    color: transparent;
+    transition: typing 5s linear;
+}
+.banner-title::before{
+    content: 'You Have Every Advantage|';
+    font-size: 34.5px;
+    font-weight: 700;
+    position: absolute;
+    color: black;
+    animation: typing 5s infinite;
     
 }
+
+@keyframes typing {
+    0%{
+        content: 'Y|';
+    }
+    2%{
+        content: 'Yo|';
+    }
+    4%{
+        content: 'You|';
+    }
+    6%{
+        content: 'You |';
+    }
+    8%{
+        content: 'You H|';
+    }
+    10%{
+        content: 'You Ha|';
+    }
+    12%{
+        content: 'You Hav|';
+    }
+    14%{
+        content: 'You Have|';
+    }
+    16%{
+        content: 'You Have |';
+    }
+    18%{
+        content: 'You Have E|';
+    }
+    20%{
+        content: 'You Have Ev|';
+    }
+    22%{
+        content: 'You Have Eve|';
+    }
+    24%{
+        content: 'You Have Ever|';
+    }
+    26%{
+        content: 'You Have Every|';
+    }
+    28%{
+        content: 'You Have Every |';
+    }
+    30%{
+        content: 'You Have Every A|';
+    }
+    32%{
+        content: 'You Have Every Ad|';
+    }
+    34%{
+        content: 'You Have Every Adv|';
+    }
+    36%{
+        content: 'You Have Every Adva|';
+    }
+    38%{
+        content: 'You Have Every Advan|';
+    }
+    40%{
+        content: 'You Have Every Advant|';
+    }
+    42%{
+        content: 'You Have Every Advanta|';
+    }
+    44%{
+        content: 'You Have Every Advantag|';
+    }
+    46%{
+        content: 'You Have Every Advantage|';
+    }
+    46%,
+    75%{
+        content: 'You Have Every Advantage|';
+    }
+    76%{
+        content: 'You Have Every Advantag|';
+    }
+    77%{
+        content: 'You Have Every Advanta|';
+    }
+    78%{
+        content: 'You Have Every Advant|';
+    }
+    79%{
+        content: 'You Have Every Advan|';
+    }
+    80%{
+        content: 'You Have Every Adva|';
+    }
+    81%{
+        content: 'You Have Every Adv|';
+    }
+    82%{
+        content: 'You Have Every Ad|';
+    }
+    83%{
+        content: 'You Have Every A|';
+    }
+    84%{
+        content: 'You Have Every |';
+    }
+    85%{
+        content: 'You Have Every|';
+    }
+    86%{
+        content: 'You Have Ever|';
+    }
+    87%{
+        content: 'You Have Eve|';
+    }
+    88%{
+        content: 'You Have Ev|';
+    }
+    89%{
+        content: 'You Have E|';
+    }
+    90%{
+        content: 'You Have |';
+    }
+    91%{
+        content: 'You Have|';
+    }
+    92%{
+        content: 'You Hav|';
+    }
+    93%{
+        content: 'You Ha|';
+    }
+    94%{
+        content: 'You H|';
+    }
+    95%{
+        content: 'You |';
+    }
+    96%{
+        content: 'You|';
+    }
+    97%{
+        content: 'Yo|';
+    }
+    98%{
+        content: 'Y|';
+    }
+    99%{
+        content: '|';
+    }
+    100%{
+        content: '|';
+    }
+}
+
 .banner-left p{
     text-align: justify;
     line-height: 1.5;
@@ -213,4 +382,10 @@ nav{
 }
 .fa-youtube{
     color: #ff0000;
+}
+
+    /* Start Media Quarey */
+
+@media max-width {
+    
 }
