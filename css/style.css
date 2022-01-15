@@ -158,17 +158,19 @@ nav{
     left: 1095px;
 }
 .bottom{
-    background-color: #AAAAAA;
+    background-color: #aaaaaa9d;
     margin: 0;
     width: 100%;
+    padding: 30px 0;
 }
 .footer-section{
     text-align: center;
-    /* padding: 20px 0; */
+    height: 110px;
+    align-items: center;
 }
 .footer-icon .fab{
-    padding: 15px 10px;
-    font-size: 30px;
+    padding: 10px 10px;
+    font-size: 25px;
 }
 .fa-facebook{
     color: #1877f2;
