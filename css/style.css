@@ -471,6 +471,13 @@ nav{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
    }
+   .next-step{
+    max-width: 1024px;
+    min-width: 801px;
+    position: absolute;
+    left: -1090px;
+    white-space: nowrap;
+   }
    .shopping-section h1{
     max-width: 800px;
     min-width: 480px;
@@ -494,8 +501,6 @@ nav{
     header{
         max-width: 1024px;
         min-width: 801px;
-        /* display: flex; */
-        /* flex: 1; */
         display: inline-block;
     }
    .navigation{
@@ -567,7 +572,7 @@ nav{
     max-width: 1024px;
     min-width: 801px;
     position: absolute;
-    left: -1050px;
+    left: -1090px;
     white-space: nowrap;
    }
    .shopping-section h1{
